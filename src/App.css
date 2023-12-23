@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Fira+Sans:wght@400;500&family=Inconsolata:wght@400;500&family=Jost:wght@400;500&family=Lato:wght@300;400;700&family=Lora&family=Open+Sans:wght@400;500;600;700&family=Roboto+Mono:ital,wght@0,500;1,400&family=Roboto:wght@400;500&display=swap');
+
+.App {
+  margin: 0px auto;
+  text-align: center;
+  max-width: 800px;
+  padding: 20px;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(5, 5, 5);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-div {
+  margin-top: 80px;
+}
+
+.profile-thumbnail {
+  width: 100%; /* Responsive width */
+  max-width: 200px; /* Maximum width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Round the corners to make it circular */
+  object-fit: cover; /* Ensures the image covers the area */
+  display: block; /* To remove any extra space below the image */
+  margin: 0 auto; /* For center alignment if needed */
+  display: inline-block;
+}
+
+.intro-container {
+  display: flex;
+}
+
+.name-header {
+  font-size: calc(10px + 2vmin);
+}
+
+.name-container {
+  display: flex;
+  margin-left: 100px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.icon-container {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+
+.icon {
+  height: 25px;
+  width: 25px;
+  /* border-radius: 50%; */
+}
+
+.icon-twitter {
+  height: 23px;
+  width: 23px;
+  /* border-radius: 50%; */
+}
+
+
+.row-container {
+  display: flex ;
+}
+
+.display-inline {
+  display: inline;
+}
+
+.pad-r-10 {
+  padding-right: 20px;
+}
+
+.pad-l-10 {
+  padding-left: 20px;
+}
+
+.border-right {
+  border-right: 2px solid;
+  border-color: rgb(18, 17, 17);
+}
+
+.mg-t-10 {
+  margin-top: 10px;
+}
+
+.mg-t-20 {
+  margin-top: 60px;
+}
+
+.ft-size-b {
+  /* font-weight: bold; */
+  font-size: 20px
+}
+
+.p-left {
+  text-align: left;
+  /* font-weight: 400; */
+  font-family: 'Jost', sans-serif;
+}
+
+.quote {
+  font-weight: 600;
+  font-weight: bold;
+  font-family: 'Roboto Mono', sans-serif;
+}
