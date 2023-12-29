@@ -1,16 +1,13 @@
 import "./App.css";
-import Introduction from "./components/Introduction";
+import Intro from "./components/Intro";
 import About from "./components/About";
 
 function App() {
   return (
-    <div className="App">
-      <div className="App-div">
-        <Introduction></Introduction>
-        <About></About>
-        <header className="quote">Future is bright!</header>
-      </div>
-    </div>
+    <main className="container">
+      <Intro></Intro>
+      <About></About>
+    </main>
   );
 }
 
