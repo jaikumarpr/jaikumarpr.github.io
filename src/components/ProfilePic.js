@@ -1,24 +1,15 @@
+import styled from "styled-components"
 
-const style =  {
-    width: "100%",
-    "max-width" : "250px",
-    height: "auto",
-    "border-radius": "50%",
-  }
-
-  const parent ={
-    "margin-top": "40px",
-    display: "flex",
-    "justify-content": "center",
-  }
-
-
+const Img = styled.img`
+width : 100%;
+max-width: 250px;
+height: auto;
+border-radius: 50%;
+`
 
 function ProfilePic(){
     return(
-        <div style={parent}>
-             <img src="pic.JPG" alt="" style={style}></img>
-        </div> 
+          <Img src="pic.JPG" alt="profile picture of jaikumar pettikkattil"></Img>
     )
 }
 

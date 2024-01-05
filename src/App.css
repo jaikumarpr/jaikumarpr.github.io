@@ -10,3 +10,12 @@ body{
   font-weight: bold;
   font-family: 'Roboto Mono', sans-serif;
 }
+
+.app-width {
+ max-width: 900px;
+}
+
+.app-grid {
+  margin-top: 50px;
+  justify-items: center;
+}
